@@ -4,8 +4,6 @@ version = "0.1.0"
 authors = ["teki.sei <teki.sei@uzabase.com>"]
 
 [dependencies]
-tokio-core = "0.1"
-futures = "0.1"
 reqwest = "0.9.8"
 serde = "1.0.29"
 serde_derive = "1.0"
