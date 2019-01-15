@@ -30,8 +30,8 @@ impl TRecordApi for RecordApi {
 #[cfg(test)]
 mod tests {
     use mockito::mock;
-    use super::*;
     use ::domain::Record;
+    use super::*;
 
     #[test]
     fn test_record_api_all_records_succeed() {

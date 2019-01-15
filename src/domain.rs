@@ -21,7 +21,7 @@ impl TRecords for Records {
         Record {
             score: self.list.iter()
                 .filter(|record| record.score >= 60)
-                .fold(0, |count, record| count + record.score)
+                .fold(0, |acc, record| acc + record.score)
         }
     }
 }

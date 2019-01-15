@@ -29,8 +29,8 @@ fn sum_of_passed_records(record_api: Box<TRecordApi>) -> Record {
 #[cfg(test)]
 mod tests {
     use mockers::Scenario;
-    use super::*;
     use domain::TRecords;
+    use super::*;
 
     #[test]
     fn test_sum_of_passed_records_succeed() {
